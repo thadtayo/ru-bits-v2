@@ -1,15 +1,25 @@
 import './App.css'
 import Navbar from './Navbar'
-import Main from './Main'
 import Footer from './Footer'
-import Particles from 'react-particles-js'
+import {Route, BrowserRouter as Router} from 'react-router-dom'
+import Home from './pages/Home'
+import Events from './pages/Events'
+import Workshops from './pages/Workshops'
+import Podcasts from './pages/Podcasts'
+import Newsletter from './pages/Newsletter'
 function App() {
   return (
-    <div>  
+    <Router>  
       <Navbar/>
-      <Main/>
-      <Footer/> 
-    </div>
+      <Route path='/' exact component={Home}/>
+      <Route path='/events' exact component={Events}/>
+      <Route path='/workshops' exact component={Workshops}/>
+      <Route path='/podcasts' exact component={Podcasts}/>
+      <Route path='/newsletter' exact component={Newsletter}/>
+      <Footer/>
+
+      
+    </Router>
     
   )
 }

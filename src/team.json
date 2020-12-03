@@ -1,0 +1,98 @@
+{
+    "leaders": [
+      {
+        "name": "Unnati Agrawal",
+        "role": "president"
+      },
+      {
+        "name": "Aishwarya Kanagala",
+        "role": "vice president"
+      },
+      {
+        "name": "Shaurya Pathak",
+        "role": "secretary"
+      },
+      {
+        "name": "Shankhadip Chakraborty",
+        "role": "treasurer"
+      },
+      {
+        "name": "Madhav Arora",
+        "role": "editor in chief"
+      }
+    ],
+    "directors": [
+      {
+        "name": "Bhakti Patel",
+        "role": "director of technology"
+      },
+      {
+        "name": "Renesh Bhamidipati",
+        "role": "director of events"
+      },
+      {
+        "name": "Sriven Sikhinam",
+        "role": "director of corporate relations"
+      },
+      {
+        "name": "Avig Pointi",
+        "role": "director of marketing"
+      }
+    ],
+    "technology_team": [
+      {
+        "name": "Joshua Schupak",
+        "role": "tech development chair"
+      },
+      {
+        "name": "Thad Tayo",
+        "role": "webmaster"
+      },
+      {
+        "name": "Meldon Mendonca",
+        "role": "tech team member"
+      },
+      {
+        "name": "Harsh Kumar",
+        "role": "tech team member"
+      }
+    ],
+    "events": [
+      {
+        "name": "Rashi Shah",
+        "role": "events chair"
+      },
+      {
+        "name": "Ameer Ali",
+        "role": "professional development chair"
+      },
+      {
+        "name": "eric pepic",
+        "role": "member engagement lead"
+      }
+    ],
+    "corporate_relations": [
+      {
+        "name": "Joseph Cobo",
+        "role": "corporate relations chair"
+      },
+      {
+        "name": "Nandita Shyam",
+        "role": "professional affairs chair"
+      },
+      {
+        "name": "Jonathan Miller",
+        "role": "corporate relations team member"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Juliana Urbis",
+        "role": "design & graphics chair"
+      },
+      {
+        "name": "Navya Nadig",
+        "role": "social media chair"
+      }
+    ]
+  }

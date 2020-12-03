@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Navbar(){
     return (
@@ -13,7 +14,7 @@ function Navbar(){
     
             <ul className="navbar-nav mr-auto">
               <li className="nav-item px-2">
-                <a className="nav-link hover-effect" href="#top">HOME</a>
+                <Link className="nav-link hover-effect" to='/'>HOME</Link>
               </li>
               <li className="nav-item px-2">
                 <a className="nav-link hover-effect" href="#about">ABOUT</a>
@@ -31,16 +32,16 @@ function Navbar(){
     
             <ul className="navbar-nav">
               <li className="nav-item px-2">
-                <a href="events.html" className="nav-link hover-effect">EVENTS</a>
+                <Link to="/events" className="nav-link hover-effect">EVENTS</Link>
               </li>
               <li className="nav-item px-2">
-                <a href="workshops.html" className="nav-link hover-effect">WORKSHOPS</a>
+                <Link to="/workshops" className="nav-link hover-effect">WORKSHOPS</Link>
               </li>
               <li className="nav-item px-2">
-                <a href="podcasts.html" className="nav-link hover-effect">PODCASTS</a>
+                <Link to="/podcasts" className="nav-link hover-effect">PODCASTS</Link>
               </li>
               <li className="nav-item px-2">
-                <a href="#" className="nav-link hover-effect">NEWSLETTER</a>
+                <Link to="/newsletter" className="nav-link hover-effect">NEWSLETTER</Link>
               </li>
     
     
