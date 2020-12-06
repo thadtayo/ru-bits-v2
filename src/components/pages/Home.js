@@ -8,7 +8,7 @@ import Learn from '../Learn'
 function Home(){
     return (
         <div>
-            <Particle/>
+            <Particle classHeight='full-height'/>
             <About/>
             <Events/>
             <Team/>

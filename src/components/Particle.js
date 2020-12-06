@@ -2,9 +2,9 @@ import React from 'react'
 
 import Particles from 'react-particles-js'
 import logo from '../images/acronym.png'
-function Particle() {
+function Particle(props) {
     return (
-        <div id='particles-js'>
+        <div id='particles-js' className={props.classHeight}>
             <Particles
                 params={{
                     particles: {
@@ -17,13 +17,9 @@ function Particle() {
 
                     }
                 }}
-                className='full-height'
             />
             <h1 className='hero-h1 py-0'>
-                <div>
                     <img src={logo} alt="Business Information Technology Society" className="logo-main"/>
-                </div>
-
             </h1>
         </div>
     )
