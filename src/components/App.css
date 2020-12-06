@@ -131,7 +131,7 @@ height: 456px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
 }
 
-.podcast-title{
+.workshop-title{
   color: rgb(38,57,68);
   text-decoration: underline;
 }
@@ -170,7 +170,7 @@ height: 456px;
 }
 
 
-.podcast-row{
+.workshop-row{
 margin-bottom: 10%;
 }
 
