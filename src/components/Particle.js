@@ -12,7 +12,7 @@ function Particle(props) {
                 params={{
                     particles: {
                         number: {
-                            value: 50
+                            value: 80
                         },
                         size: {
                             value: 5

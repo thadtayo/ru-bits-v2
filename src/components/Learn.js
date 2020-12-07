@@ -2,7 +2,7 @@ import React from 'react'
 
 function Learn() {
     return (
-        <div className="container text-center" id="contact">
+        <div className="fluid-container text-center line-height-extended" id="contact">
             <h2 className="section-header">Learn More</h2>
             <div>
                 <p>If you have any questions, email us at <a href="mailto:bits.rutgers@gmail.com"

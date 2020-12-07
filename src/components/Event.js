@@ -6,7 +6,7 @@ function Event(props) {
     if (props.flip) {
         return (
             <>
-                <div className='row'>
+                <div className='row mt-5'>
                     <EventFlyer
                         flyer={props.flyer}
                         alt={props.alt}
@@ -28,7 +28,7 @@ function Event(props) {
     }
     return (
         <>
-            <div className='row'>
+            <div className='row mt-5'>
                 <EventDescription
                     title={props.title}
                     date={props.date}
