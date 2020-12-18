@@ -395,6 +395,10 @@ background-color:#FF0000
 {
 background-color:#007bb6
 }
+.social-icons a.discord:hover
+{
+background-color:#1949b1
+}
 
 @media (max-width:767px)
 {
