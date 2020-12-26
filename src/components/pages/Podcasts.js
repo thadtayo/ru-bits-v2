@@ -8,11 +8,19 @@ function Podcasts() {
             <Particle classHeight={'banner-height'} />
 
             <div className='container-fluid text-center mt-5'>
-                <h4>Watch all previous podcasts done by BITS!</h4>
+                <h2>Watch all previous podcasts done by BITS!</h2>
+                <p className='text-muted'>Coming soon!</p>
             </div>
-
-            <div className='container my-5'>
-                <ContentRow
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            {/* <div className='container my-5'>
+                <h1> Coming Soon!</h1> */}
+                {/* <ContentRow
                     link1={'https://google.com'}
                     title1={'Title 1'}
                     description1={'This is a description for workshop 1.'}
@@ -70,9 +78,9 @@ function Podcasts() {
                     title3={'Title 3'}
                     description3={'This is a description for workshop 3.'}
                     number3={1}
-                />
+                /> */}
 
-            </div>
+            {/* </div> */}
         </>
 
     )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import flyer_1 from '../images/flyers/08_22_20.JPG'
 import flyer_2 from '../images/flyers/08_22_2020.JPG'
 
@@ -23,7 +24,7 @@ function Events() {
                 </div>
 
 
-                <button type="button" className="btn btn-lg mt-5"> <a href="events.html">Learn More</a></button>
+                <button type="button" className="btn btn-lg mt-5"> <Link to='events'>Learn More</Link></button>
             </div>
         </div>
     )

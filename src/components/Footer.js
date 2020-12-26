@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer(){
     return (
@@ -18,11 +19,11 @@ function Footer(){
           <div className="col-md-4 text-right">
             <h6>Quick Links</h6>
             <ul className="footer-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="workshops.html">Workshops</a></li>
-              <li><a href="podcasts.html">Podcasts</a></li>
-              <li><a href="#">Newsletter</a></li>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='events'>Events</Link></li>
+              <li><Link to='workshops'>Workshops</Link></li>
+              <li><Link to='podcasts'>Podcasts</Link></li>
+              <li><Link to='newsletter'>Newsletter</Link></li>
             </ul>
           </div>
   
@@ -33,7 +34,7 @@ function Footer(){
         <div className="row">
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">Copyright &copy; 2020 All Rights Reserved by
-              <a href="#"> RU Business Information Technology Society</a>.
+              <Link to='/'> RU Business Information Technology Society</Link>.
             </p>
           </div>
   
