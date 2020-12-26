@@ -54,10 +54,3 @@ $("a[href='#past']").click(function() {
   $('html, body').animate({scrollTop: $('#past').offset().top - 100 }, 'fast');
   return false;
 });
-
-// TEAM SECTION MINIMIZE/MAXIMIZE
-$(".btn-minimize").click(function(){
-  $(this).text($(this).text() == 'Minimize' ? 'Maximize' : 'Minimize');
-  $(".team-section").slideToggle();
-});
-
