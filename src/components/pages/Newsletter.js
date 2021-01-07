@@ -1,11 +1,33 @@
 import React from 'react'
+import Landing from '../Landing'
 
 function Newsletter(){
+    const header = <h1 className='hero2-h1'>Newsletter</h1>
+
     return (
-        <div className='mt-5'>
-            <h1>Newsletter is empty because Madhav Arora has yet to do any work in the past 6 months</h1>
-        </div>
+        <>
+        <Landing content={header} height={'40vh'} class={'landing2'}/>
+
         
+        <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div className='container-fluid text-center mt-5'>
+                <h2>Read all newsletters written by BITS!</h2>
+                <p className='text-muted'>Coming soon!</p>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+        </>
 
     )
 }

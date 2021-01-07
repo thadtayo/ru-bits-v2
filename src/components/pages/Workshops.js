@@ -1,11 +1,13 @@
 import React from 'react'
 import ContentRow from '../ContentRow'
-import Particle from '../Particle'
+import Landing from '../Landing'
 
 function Workshops() {
+    const header = <h1 className='hero2-h1'>Workshops</h1>
     return (
         <>
-            <Particle classHeight={'banner-height'} />
+            <Landing content={header} height={'40vh'} class={'landing2'}/>
+
 
             <div className='container-fluid text-center mt-5'>
                 <h2>Watch all previous workshops and events done by BITS!</h2>

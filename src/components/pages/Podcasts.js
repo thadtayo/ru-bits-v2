@@ -1,26 +1,34 @@
 import React from 'react'
 import ContentRow from '../ContentRow'
-import Particle from '../Particle'
+import Landing from '../Landing'
 
 function Podcasts() {
+    const header = <h1 className='hero2-h1'>Podcasts</h1>
+
     return (
         <>
-            <Particle classHeight={'banner-height'} />
+            <Landing content={header} height={'40vh'} class={'landing2'}/>
 
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <div className='container-fluid text-center mt-5'>
                 <h2>Watch all previous podcasts done by BITS!</h2>
                 <p className='text-muted'>Coming soon!</p>
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             {/* <div className='container my-5'>
                 <h1> Coming Soon!</h1> */}
-                {/* <ContentRow
+            {/* <ContentRow
                     link1={'https://google.com'}
                     title1={'Title 1'}
                     description1={'This is a description for workshop 1.'}

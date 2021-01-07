@@ -1,16 +1,20 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
+import Container from '@material-ui/core/Container'
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 
 const useStyles = makeStyles((theme) => ({
   modal: {
     margin: '0 auto',
+    padding: '0 auto',
     display: 'flex',
     alignItems: 'center',
     textAlign: 'center',
-    width: '25%',
+    width: 'auto',
+    maxWidth: '90%',
+    overflow: 'auto'
   },
   paper: {
     backgroundColor: theme.palette.background.paper,

@@ -1,12 +1,13 @@
 import React from 'react'
 import Event from '../Event'
-import Particle from '../Particle'
+import Landing from '../Landing'
 import _08_22_20 from '../../images/flyers/08_22_20.JPG'
 
 function Events() {
+    const header = <h1 className='hero2-h1'>Events</h1>
     return (
         <>
-            <Particle classHeight={'banner-height'} />
+            <Landing content={header} height={'40vh'} class={'landing2'}/>
 
             <div className='container-fluid box-shadow text-center my-5' id='upcoming'>
                 <div className='container'>
