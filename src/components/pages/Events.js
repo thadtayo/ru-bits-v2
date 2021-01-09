@@ -8,7 +8,6 @@ function Events() {
     return (
         <>
             <Landing content={header} height={'40vh'} class={'landing2'}/>
-
             <div className='container-fluid box-shadow text-center my-5' id='upcoming'>
                 <div className='container'>
                     <h2 className='section-header'>Upcoming Events</h2>
