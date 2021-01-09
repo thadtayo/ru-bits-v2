@@ -10,7 +10,7 @@ function Workshops() {
 
 
             <div className='container-fluid text-center mt-5'>
-                <h2>Watch all previous workshops and events done by BITS!</h2>
+                <h2 className='section-header'>Watch all previous workshops and events done by BITS!</h2>
                 <p className='text-muted'>Click the title to watch!</p>
             </div>
 

@@ -7,15 +7,7 @@ function Newsletter(){
     return (
         <>
         <Landing content={header} height={'40vh'} class={'landing2'}/>
-
-        
-        <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <div className='container-fluid text-center mt-5'>
+            <div className='container-fluid text-center'>
                 <h2>Read all newsletters written by BITS!</h2>
                 <p className='text-muted'>Coming soon!</p>
             </div>
