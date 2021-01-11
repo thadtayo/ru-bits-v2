@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import flyer_1 from '../images/flyers/08_22_20.JPG'
-import flyer_2 from '../images/flyers/08_22_2020.JPG'
+import flyer_1 from '../images/flyers/08_22_20_1.JPG'
+import flyer_2 from '../images/flyers/08_22_20_2.JPG'
 
 function Events() {
     const [active, setActive] = useState(false)

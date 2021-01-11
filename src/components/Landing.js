@@ -8,8 +8,8 @@ function Landing(props) {
 
     let waveContent = <></>
     if(props.class === 'landing2'){
-        console.log('yur')
-        waveContent = <img src={wave} alt='Business Information Technology Society'/>
+
+        waveContent = <img draggable='false' src={wave} className='wave'alt='Business Information Technology Society'/>
     }
     return (
         <>
