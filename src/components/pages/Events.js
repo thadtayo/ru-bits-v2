@@ -1,7 +1,7 @@
 import React from 'react'
 import Event from '../Event'
 import Landing from '../Landing'
-import _08_22_20 from '../../images/flyers/08_22_20.JPG'
+import _08_22_20 from '../../images/flyers/08_22_20_1.JPG'
 
 function Events() {
     const header = <h1 className='hero2-h1'>Events</h1>
