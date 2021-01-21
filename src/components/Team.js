@@ -24,6 +24,7 @@ import navya from '../images/headshots/navya.png';
 import neha from '../images/headshots/neha.jpeg';
 import sukhbir from '../images/headshots/sukhbir.png';
 import nimai from '../images/headshots/nimai.jpg';
+import eanne from '../images/headshots/eanne.jpeg';
 
 function Team() {
 	// I'm gonna bite the bullet and hardcode this. We only recruit once a year anyway :shrug:
@@ -495,6 +496,41 @@ function Team() {
 										</h5>
 										<p className="text-uppercase blue-text">
 											<strong>Social Media Chair</strong>
+										</p>
+									</div>
+								</div>
+
+								<h3 className="d-flex justify-content-start">Design</h3>
+								<div className="row">
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={eanne}
+												alt={'Eanne Chiang'}
+												blurb={data['eanne']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Eanne Chiang
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Design Team Member</strong>
+										</p>
+									</div>
+
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={neha}
+												alt={'Neha Karnam'}
+												blurb={data['neha']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Neha Karnam
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Design Team Member</strong>
 										</p>
 									</div>
 								</div>
