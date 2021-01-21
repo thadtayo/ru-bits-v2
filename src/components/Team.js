@@ -19,12 +19,14 @@ import ameer from '../images/headshots/Ameer.JPG';
 import eric from '../images/headshots/eric.png';
 import nandita from '../images/headshots/nandita.png';
 import nanditaV from '../images/headshots/nanditaV.jpg';
-import juliana from '../images/headshots/juliana.png';
 import navya from '../images/headshots/navya.png';
 import neha from '../images/headshots/neha.jpeg';
 import sukhbir from '../images/headshots/sukhbir.png';
 import nimai from '../images/headshots/nimai.jpg';
 import eanne from '../images/headshots/eanne.jpeg';
+import raymond from '../images/headshots/raymond.jpeg';
+import nikhita from '../images/headshots/nikhita.jpeg';
+import mansi from '../images/headshots/mansi.JPG';
 
 function Team() {
 	// I'm gonna bite the bullet and hardcode this. We only recruit once a year anyway :shrug:
@@ -470,22 +472,6 @@ function Team() {
 									<div className="col-lg mb-5">
 										<div className="mx-auto">
 											<TeamModal
-												src={juliana}
-												alt={'Juliana Urbis'}
-												blurb={data['juliana']}
-											/>
-										</div>
-										<h5 className="font-weight-bold mt-4 mb-3">
-											Juliana Urbis
-										</h5>
-										<p className="text-uppercase blue-text">
-											<strong>Design & Graphics Chair</strong>
-										</p>
-									</div>
-
-									<div className="col-lg mb-5">
-										<div className="mx-auto">
-											<TeamModal
 												src={navya}
 												alt={'Navya Nadig'}
 												blurb={data['navya']}
@@ -496,6 +482,52 @@ function Team() {
 										</h5>
 										<p className="text-uppercase blue-text">
 											<strong>Social Media Chair</strong>
+										</p>
+									</div>
+
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={raymond}
+												alt={'Raymond Yang'}
+												blurb={data['raymond']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Raymond Yang
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Marketing Ambassador</strong>
+										</p>
+									</div>
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={nikhita}
+												alt={'Nikhita Kashi'}
+												blurb={data['raymond']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Nikhita Kashi
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Marketing Ambassador</strong>
+										</p>
+									</div>
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={mansi}
+												alt={'Mansi Patel'}
+												blurb={data['raymond']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Mansi Patel
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Marketing Ambassador</strong>
 										</p>
 									</div>
 								</div>
