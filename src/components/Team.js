@@ -27,6 +27,10 @@ import eanne from '../images/headshots/eanne.jpeg';
 import raymond from '../images/headshots/raymond.jpeg';
 import nikhita from '../images/headshots/nikhita.jpeg';
 import mansi from '../images/headshots/mansi.JPG';
+import nicole from '../images/headshots/nicole.jpeg';
+import michelle from '../images/headshots/michelle.jpg';
+import thomas from '../images/headshots/thomas.jpeg';
+import amani from '../images/headshots/amani.jpeg';
 
 function Team() {
 	// I'm gonna bite the bullet and hardcode this. We only recruit once a year anyway :shrug:
@@ -528,6 +532,73 @@ function Team() {
 										</h5>
 										<p className="text-uppercase blue-text">
 											<strong>Marketing Ambassador</strong>
+										</p>
+									</div>
+								</div>
+
+								<h3 className="d-flex justify-content-start">
+									Newsletter
+								</h3>
+								<div className="row">
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={nicole}
+												alt={'Nicole Stavrakis'}
+												blurb={data['nicole']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Nicole Stavrakis
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Newsletter Writer</strong>
+										</p>
+									</div>
+
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={amani}
+												alt={'Amani Syed'}
+												blurb={data['amani']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Amani Syed
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Newsletter Writer</strong>
+										</p>
+									</div>
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={thomas}
+												alt={'Thomas Edralin'}
+												blurb={data['thomas']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Thomas Edralin
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Newsletter Writer</strong>
+										</p>
+									</div>
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={michelle}
+												alt={'Michelle Sy'}
+												blurb={data['michelle']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Michelle Sy
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Newsletter Writer</strong>
 										</p>
 									</div>
 								</div>
