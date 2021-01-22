@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import SlideToggle from 'react-slide-toggle';
 import TeamModal from './TeamModal';
 import data from './data';
@@ -455,7 +455,7 @@ function Team() {
 											<TeamModal
 												src={nimai}
 												alt={'Nimai Sanikop'}
-												blurb={data['nandita']}
+												blurb={data['nimai']}
 											/>
 										</div>
 										<h5 className="font-weight-bold mt-4 mb-3">
@@ -509,7 +509,7 @@ function Team() {
 											<TeamModal
 												src={nikhita}
 												alt={'Nikhita Kashi'}
-												blurb={data['raymond']}
+												blurb={data['nikhita']}
 											/>
 										</div>
 										<h5 className="font-weight-bold mt-4 mb-3">
@@ -524,7 +524,7 @@ function Team() {
 											<TeamModal
 												src={mansi}
 												alt={'Mansi Patel'}
-												blurb={data['raymond']}
+												blurb={data['mansi']}
 											/>
 										</div>
 										<h5 className="font-weight-bold mt-4 mb-3">
