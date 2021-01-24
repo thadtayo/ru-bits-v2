@@ -13,9 +13,16 @@ import sriven from '../images/headshots/sriven.png'
 import avig from '../images/headshots/Avig.jpg'
 import josh from '../images/headshots/josh.png'
 import thad from '../images/headshots/thad.png'
+import hemani from '../images/headshots/hemani.jpeg'
+import deep from '../images/headshots/deep.jpg'
+import adrienne from '../images/headshots/adrienne.jpg'
+import jay from '../images/headshots/jay.png'
 import meldon from '../images/headshots/meldon.png'
 import rashi from '../images/headshots/rashi.png'
 import ameer from '../images/headshots/Ameer.JPG'
+import eesha from '../images/headshots/Eesha.jpeg'
+import tulsi from '../images/headshots/Tulsi.jpg'
+import kennan from 'images/headshots/Kennan.jpg'
 import eric from '../images/headshots/eric.png'
 import joseph from '../images/headshots/joseph.png'
 import nandita from '../images/headshots/nandita.png'
@@ -148,7 +155,6 @@ function Team() {
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
                                         <TeamModal src={thad} alt={'Thad Joshua Tayo'} blurb={data['thad']} />
-
                                     </div>
                                     <h5 className="font-weight-bold mt-4 mb-3">Thad Joshua Tayo</h5>
                                     <p className="text-uppercase blue-text"><strong>Webmaster</strong></p>
@@ -157,29 +163,56 @@ function Team() {
 
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
-                                        <TeamModal src={meldon} alt={'Meldon Mendonca'} blurb={data['meldon']} />
+                                        <TeamModal src={adrienne} alt={'Adrienne Yu'} blurb={data['adrienne']} />
                                     </div>
-                                    <h5 className="font-weight-bold mt-4 mb-3">Meldon Mendonca</h5>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Adrienne Yu</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Team Member</strong></p>
 
                                 </div>
 
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
-                                        <TeamModal src={'https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg'} alt={'Harsh Kumar'} blurb={data['harsh']} />
-
+                                        <TeamModal src={jay} alt={'Jay Patel'} blurb={data['jay']} />
                                     </div>
-                                    <h5 className="font-weight-bold mt-4 mb-3">Harsh Kumar</h5>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Jay Patel</h5>
                                     <p className="text-uppercase blue-text"><strong>Tech Team Member</strong></p>
 
                                 </div>
 
 
 
+                            <h3 className="d-flex justify-content-start">Website Development Team</h3>
+                            <div className="row">
 
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={thad} alt={'Thad Joshua Tayo'} blurb={data['thad']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Thad Joshua Tayo</h5>
+                                    <p className="text-uppercase blue-text"><strong>Webmaster</strong></p>
 
+                                </div>
 
                             </div>
+
+                                 <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={hemani} alt={'Hemani Patel'} blurb={data['hemani']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Hemani Patel</h5>
+                                    <p className="text-uppercase blue-text"><strong>Web Dev Team Member</strong></p>
+
+                                </div>
+
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={deep} alt={'Deep Parekh'} blurb={data['deep']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Deep Parekh</h5>
+                                    <p className="text-uppercase blue-text"><strong>Web Dev Team Member</strong></p>
+
+                                </div>
+
 
                             <h3 className="d-flex justify-content-start">Events</h3>
                             <div className="row">
@@ -204,13 +237,30 @@ function Team() {
 
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
-                                        <TeamModal src={eric} alt={'Eric Pepic'} blurb={data['eric']} />
+                                        <TeamModal src={eesha} alt={'Eesha Mukkamala'} blurb={data['eesha']} />
                                     </div>
-                                    <h5 className="font-weight-bold mt-4 mb-3">Eric Pepic</h5>
-                                    <p className="text-uppercase blue-text"><strong>Member Engagement Lead</strong></p>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Eesha Mukkamala</h5>
+                                    <p className="text-uppercase blue-text"><strong>Professional Development Chair</strong></p>
 
                                 </div>
 
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={tulsi} alt={'Tulsi Chandan'} blurb={data['tulsi']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Tulsi Chandan</h5>
+                                    <p className="text-uppercase blue-text"><strong>Mentorship Chair</strong></p>
+
+                                </div>
+                                
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={kennan} alt={'Kennan Guan'} blurb={data['kennan']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Kennan Guan</h5>
+                                    <p className="text-uppercase blue-text"><strong>Member Engagement Lead</strong></p>
+
+                                </div>
 
 
 
@@ -294,5 +344,3 @@ function Team() {
 }
 
 export default Team
-
-
