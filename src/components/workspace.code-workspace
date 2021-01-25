@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../BITS_installation_foldr"
+		},
+		{
+			"name": "ru-bits-v2",
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
