@@ -31,6 +31,7 @@ import nicole from '../images/headshots/nicole.jpeg';
 import michelle from '../images/headshots/michelle.jpg';
 import thomas from '../images/headshots/thomas.jpeg';
 import amani from '../images/headshots/amani.jpeg';
+import juliana from '../images/headshots/juliana.png';
 
 function Team() {
 	// I'm gonna bite the bullet and hardcode this. We only recruit once a year anyway :shrug:
@@ -383,6 +384,23 @@ function Team() {
 									<div className="col-lg mb-5">
 										<div className="mx-auto">
 											<TeamModal
+												src={sriven}
+												alt={'Sriven Sikhinam'}
+												blurb={data['sriven']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Sriven Sikhinam
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>
+												Director of Corporate Relations
+											</strong>
+										</p>
+									</div>
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
 												src={meldon}
 												alt={'Meldon Mendonca'}
 												blurb={data['meldon']}
@@ -476,6 +494,21 @@ function Team() {
 									<div className="col-lg mb-5">
 										<div className="mx-auto">
 											<TeamModal
+												src={avig}
+												alt={'Avig Pointi'}
+												blurb={data['avig']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Avig Pointi
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Director of Marketing</strong>
+										</p>
+									</div>
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
 												src={navya}
 												alt={'Navya Nadig'}
 												blurb={data['navya']}
@@ -488,7 +521,8 @@ function Team() {
 											<strong>Social Media Chair</strong>
 										</p>
 									</div>
-
+								</div>
+								<div className="row">
 									<div className="col-lg mb-5">
 										<div className="mx-auto">
 											<TeamModal
@@ -536,10 +570,74 @@ function Team() {
 									</div>
 								</div>
 
+								<h3 className="d-flex justify-content-start">Design</h3>
+								<div className="row">
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={juliana}
+												alt={'Juliana Urbis'}
+												blurb={data['juliana']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Juliana Urbis
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Director of Design</strong>
+										</p>
+									</div>
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={eanne}
+												alt={'Eanne Chiang'}
+												blurb={data['eanne']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Eanne Chiang
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Design Team Member</strong>
+										</p>
+									</div>
+
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={neha}
+												alt={'Neha Karnam'}
+												blurb={data['neha']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Neha Karnam
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Design Team Member</strong>
+										</p>
+									</div>
+								</div>
 								<h3 className="d-flex justify-content-start">
 									Newsletter
 								</h3>
 								<div className="row">
+									<div className="col-lg mb-5">
+										<div className="mx-auto">
+											<TeamModal
+												src={madhav}
+												alt={'Madhav Arora'}
+												blurb={data['madhav']}
+											/>
+										</div>
+										<h5 className="font-weight-bold mt-4 mb-3">
+											Madhav Arora
+										</h5>
+										<p className="text-uppercase blue-text">
+											<strong>Editor in Chief</strong>
+										</p>
+									</div>
 									<div className="col-lg mb-5">
 										<div className="mx-auto">
 											<TeamModal
@@ -555,7 +653,8 @@ function Team() {
 											<strong>Newsletter Writer</strong>
 										</p>
 									</div>
-
+								</div>
+								<div className="row">
 									<div className="col-lg mb-5">
 										<div className="mx-auto">
 											<TeamModal
@@ -599,41 +698,6 @@ function Team() {
 										</h5>
 										<p className="text-uppercase blue-text">
 											<strong>Newsletter Writer</strong>
-										</p>
-									</div>
-								</div>
-
-								<h3 className="d-flex justify-content-start">Design</h3>
-								<div className="row">
-									<div className="col-lg mb-5">
-										<div className="mx-auto">
-											<TeamModal
-												src={eanne}
-												alt={'Eanne Chiang'}
-												blurb={data['eanne']}
-											/>
-										</div>
-										<h5 className="font-weight-bold mt-4 mb-3">
-											Eanne Chiang
-										</h5>
-										<p className="text-uppercase blue-text">
-											<strong>Design Team Member</strong>
-										</p>
-									</div>
-
-									<div className="col-lg mb-5">
-										<div className="mx-auto">
-											<TeamModal
-												src={neha}
-												alt={'Neha Karnam'}
-												blurb={data['neha']}
-											/>
-										</div>
-										<h5 className="font-weight-bold mt-4 mb-3">
-											Neha Karnam
-										</h5>
-										<p className="text-uppercase blue-text">
-											<strong>Design Team Member</strong>
 										</p>
 									</div>
 								</div>
