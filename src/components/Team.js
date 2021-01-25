@@ -20,9 +20,9 @@ import jay from '../images/headshots/jay.png'
 import meldon from '../images/headshots/meldon.png'
 import rashi from '../images/headshots/rashi.png'
 import ameer from '../images/headshots/Ameer.JPG'
-import eesha from '../images/headshots/Eesha.jpeg'
-import tulsi from '../images/headshots/Tulsi.jpg'
-import kennan from 'images/headshots/Kennan.jpg'
+import eesha from '../images/headshots/eesha.jpeg'
+import tulsi from '../images/headshots/tulsi.jpg'
+import kennan from '../images/headshots/kennan.jpg'
 import eric from '../images/headshots/eric.png'
 import joseph from '../images/headshots/joseph.png'
 import nandita from '../images/headshots/nandita.png'
@@ -178,7 +178,7 @@ function Team() {
                                     <p className="text-uppercase blue-text"><strong>Tech Team Member</strong></p>
 
                                 </div>
-
+                            </div>
 
 
                             <h3 className="d-flex justify-content-start">Website Development Team</h3>
@@ -193,9 +193,8 @@ function Team() {
 
                                 </div>
 
-                            </div>
 
-                                 <div className="col-lg mb-5">
+                                <div className="col-lg mb-5">
                                     <div className="mx-auto">
                                         <TeamModal src={hemani} alt={'Hemani Patel'} blurb={data['hemani']} />
                                     </div>
@@ -212,7 +211,7 @@ function Team() {
                                     <p className="text-uppercase blue-text"><strong>Web Dev Team Member</strong></p>
 
                                 </div>
-
+                            </div>
 
                             <h3 className="d-flex justify-content-start">Events</h3>
                             <div className="row">
@@ -252,7 +251,7 @@ function Team() {
                                     <p className="text-uppercase blue-text"><strong>Mentorship Chair</strong></p>
 
                                 </div>
-                                
+
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
                                         <TeamModal src={kennan} alt={'Kennan Guan'} blurb={data['kennan']} />
@@ -326,8 +325,6 @@ function Team() {
 
 
                             </div>
-
-
 
 
 
