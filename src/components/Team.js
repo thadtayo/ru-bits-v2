@@ -20,15 +20,22 @@ import jay from '../images/headshots/jay.png'
 import meldon from '../images/headshots/meldon.png'
 import rashi from '../images/headshots/rashi.png'
 import ameer from '../images/headshots/Ameer.JPG'
+<<<<<<< HEAD
 import eesha from '../images/headshots/eesha.png'
 import tulsi from '../images/headshots/tulsi.jpg'
 import kennan from '../images/headshots/Kennan.png'
+=======
+import eesha from '../images/headshots/eesha.jpeg'
+import tulsi from '../images/headshots/tulsi.jpg'
+import kennan from '../images/headshots/kennan.jpg'
+>>>>>>> fd4e5fbab65fbe867ba490c11ed00df06219faa6
 import eric from '../images/headshots/eric.png'
 import joseph from '../images/headshots/joseph.png'
 import nandita from '../images/headshots/nandita.png'
 import jonathan from '../images/headshots/jonathan.png'
 import juliana from '../images/headshots/juliana.png'
 import navya from '../images/headshots/navya.png'
+import neha from '../images/headshots/neha.jpeg'
 
 function Team() {
     // I'm gonna bite the bullet and hardcode this. We only recruit once a year anyway :shrug:
@@ -44,6 +51,10 @@ function Team() {
                     <>
                         <button className="btn btn-info btn-minimize mx-auto" onClick={toggle}>Toggle</button>
                         <section className="my-5 team-section" ref={setCollapsibleElement}>
+
+
+
+
                             <h3 className="d-flex justify-content-start">Leaders</h3>
                             <div className="row">
 
@@ -139,6 +150,26 @@ function Team() {
 
                             </div>
 
+                            <h3 className="d-flex justify-content-start">Community Engagement</h3>
+                            <div className="row">
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={shankhadip} alt={'Shankhadip Chakraborty'} blurb={data['shankhadip']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Shankhadip Chakraborty</h5>
+                                    <p className="text-uppercase blue-text"><strong>Director of Community Engagement</strong></p>
+
+                                </div>
+
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={neha} alt={'Neha Karnam'} blurb={data['neha']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Neha Karnam</h5>
+                                    <p className="text-uppercase blue-text"><strong>Community Team Member</strong></p>
+
+                                </div>
+                            </div>
 
                             <h3 className="d-flex justify-content-start">Technology Team</h3>
                             <div className="row">
@@ -202,7 +233,12 @@ function Team() {
 
                                 </div>
 
+<<<<<<< HEAD
                                  <div className="col-lg mb-5">
+=======
+
+                                <div className="col-lg mb-5">
+>>>>>>> fd4e5fbab65fbe867ba490c11ed00df06219faa6
                                     <div className="mx-auto">
                                         <TeamModal src={hemani} alt={'Hemani Patel'} blurb={data['hemani']} />
                                     </div>
@@ -268,7 +304,7 @@ function Team() {
                                     <p className="text-uppercase blue-text"><strong>Mentorship Chair</strong></p>
 
                                 </div>
-                                
+
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
                                         <TeamModal src={kennan} alt={'Kennan Guan'} blurb={data['kennan']} />
@@ -342,8 +378,6 @@ function Team() {
 
 
                             </div>
-
-
 
 
 
