@@ -14,15 +14,15 @@ import avig from '../images/headshots/Avig.jpg'
 import josh from '../images/headshots/josh.png'
 import thad from '../images/headshots/thad.png'
 import hemani from '../images/headshots/hemani.jpeg'
-import deep from '../images/headshots/deep.jpg'
-import adrienne from '../images/headshots/adrienne.jpg'
+import deep from '../images/headshots/deep.png'
+import adrienne from '../images/headshots/adrienne.png'
 import jay from '../images/headshots/jay.png'
 import meldon from '../images/headshots/meldon.png'
 import rashi from '../images/headshots/rashi.png'
 import ameer from '../images/headshots/Ameer.JPG'
-import eesha from '../images/headshots/Eesha.jpeg'
-import tulsi from '../images/headshots/Tulsi.jpg'
-import kennan from 'images/headshots/Kennan.jpg'
+import eesha from '../images/headshots/eesha.jpeg'
+import tulsi from '../images/headshots/tulsi.jpg'
+import kennan from '../images/headshots/Kennan.png'
 import eric from '../images/headshots/eric.png'
 import joseph from '../images/headshots/joseph.png'
 import nandita from '../images/headshots/nandita.png'
@@ -142,6 +142,15 @@ function Team() {
 
                             <h3 className="d-flex justify-content-start">Technology Team</h3>
                             <div className="row">
+                            
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={bhakti} alt={'Bhakti Patel'} blurb={data['bhakti']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Bhakti Patel</h5>
+                                    <p className="text-uppercase blue-text"><strong>Director of Technology</strong></p>
+
+                                </div>
 
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
@@ -178,7 +187,7 @@ function Team() {
                                     <p className="text-uppercase blue-text"><strong>Tech Team Member</strong></p>
 
                                 </div>
-
+                            </div>
 
 
                             <h3 className="d-flex justify-content-start">Website Development Team</h3>
@@ -192,8 +201,6 @@ function Team() {
                                     <p className="text-uppercase blue-text"><strong>Webmaster</strong></p>
 
                                 </div>
-
-                            </div>
 
                                  <div className="col-lg mb-5">
                                     <div className="mx-auto">
@@ -212,10 +219,19 @@ function Team() {
                                     <p className="text-uppercase blue-text"><strong>Web Dev Team Member</strong></p>
 
                                 </div>
-
+                            </div>
 
                             <h3 className="d-flex justify-content-start">Events</h3>
                             <div className="row">
+
+                                <div className="col-lg mb-5">
+                                    <div className="mx-auto">
+                                        <TeamModal src={renesh} alt={'Renesh Bhamidipati'} blurb={data['renesh']} />
+                                    </div>
+                                    <h5 className="font-weight-bold mt-4 mb-3">Renesh Bhamidipati</h5>
+                                    <p className="text-uppercase blue-text"><strong>Director of Events</strong></p>
+
+                                </div>
 
                                 <div className="col-lg mb-5">
                                     <div className="mx-auto">
