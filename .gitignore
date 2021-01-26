@@ -24,4 +24,4 @@ yarn-error.log*
 
 public/bits.ico
 
-.eslintcache
+.eslintcache*
