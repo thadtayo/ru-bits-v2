@@ -14,27 +14,12 @@ function Events() {
     return (
         <>
             <Landing content={header} height={'40vh'} class={'landing2'} />
-            <div className='container-fluid box-shadow text-center mb-5' id='upcoming'>
+            {/* <div className='container-fluid box-shadow text-center mb-5' id='upcoming'>
                 <div className='container'>
                     <h2 className='section-header'>Upcoming Events</h2>
-                    <Event
-                        flyer={_08_22_20}
-                        alt={'Come join the BITS virtual summit!'}
-                        title={'2020 BITS Virtual Summit!'}
-                        date={'(08/22/20) + (08/29/20)'}
-                        description={'This is a test description'}
-                        flip={true} />
-
-                    <Event
-                        flyer={_08_22_20}
-                        alt={'Come join the BITS virtual summit!'}
-                        title={'2020 BITS Virtual Summit!'}
-                        date={'(08/22/20) + (08/29/20)'}
-                        description={'This is a test description'}
-                        flip={false} />
                 </div>
 
-            </div>
+            </div> */}
 
             <div className='container-fluid box-shadow text-center' id='past'>
                 <div className='container'>
