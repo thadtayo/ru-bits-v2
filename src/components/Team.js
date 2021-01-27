@@ -39,10 +39,11 @@ import michelle from '../images/headshots/michelle.jpg';
 import thomas from '../images/headshots/thomas.jpeg';
 import amani from '../images/headshots/amani.jpeg';
 import juliana from '../images/headshots/juliana.png';
+import sneha from '../images/headshots/sneha.JPEG';
 
 function Team() {
 	// I'm gonna bite the bullet and hardcode this. We only recruit once a year anyway :shrug:
-
+	console.log(Object.keys(data).length)
 	return (
 		<div className="container-fluid box-shadow mt-5 pb-2" id="team">
 			<div className="container text-center">
@@ -162,16 +163,16 @@ function Team() {
 									<div className="col-lg mb-5">
 										<div className="mx-auto">
 											<TeamModal
-												src={neha}
-												alt={'Neha Karnam'}
+												src={sneha}
+												alt={'Sneha Deb'}
 												blurb={data['neha']}
 											/>
 										</div>
 										<h5 className="font-weight-bold mt-4 mb-3">
-											Neha Karnam
+											Sneha Deb
 										</h5>
 										<p className="text-uppercase blue-text">
-											<strong>Community Team Member</strong>
+											<strong>Community Engagement Team Member</strong>
 										</p>
 									</div>
 								</div>
