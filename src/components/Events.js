@@ -4,7 +4,6 @@ import flyer_1 from '../images/flyers/08_22_20_1.JPG'
 import flyer_2 from '../images/flyers/08_22_20_2.JPG'
 
 function Events() {
-    const [active, setActive] = useState(false)
 
     return (
         <div className="container-fluid box-shadow py-5" id="events">

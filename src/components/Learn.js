@@ -7,8 +7,8 @@ function Learn() {
             <div>
                 <p>If you have any questions, email us at <a href="mailto:bits.rutgers@gmail.com"
                     className="significant-link">bits.rutgers@gmail.com</a>!</p>
-                <p>To stay in the loop with upcoming BITS events and keep up with our future workshops,
-        <a href="" className="significant-link"> join our mailing list</a>.</p>
+                <p>To stay in the loop with upcoming BITS events and keep up with our future workshops, join our mailing list!</p>
+                <button type="button" className="btn btn-lg btn-danger mb-3"><a href="#">Join the community!</a></button>
                 <p> Don't forget to follow us on social media!</p>
             </div>
         </div>

@@ -1,7 +1,4 @@
 import React from 'react'
-
-import Particles from 'react-particles-js'
-import logo from '../images/acronym.png'
 import wave from '../images/wave.svg'
 
 function Landing(props) {

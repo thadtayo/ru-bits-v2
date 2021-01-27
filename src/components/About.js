@@ -4,8 +4,6 @@ import exposure from '../images/exposure.svg'
 import development from '../images/development.svg'
 
 function About() {
-    const [active, setActive] = useState(false)
-
     return (
         <div className="container-fluid box-shadow" id="about">
             <div className="container text-center my-5">

@@ -43,7 +43,6 @@ import sneha from '../images/headshots/sneha.JPEG';
 
 function Team() {
 	// I'm gonna bite the bullet and hardcode this. We only recruit once a year anyway :shrug:
-	console.log(Object.keys(data).length)
 	return (
 		<div className="container-fluid box-shadow mt-5 pb-2" id="team">
 			<div className="container text-center">
