@@ -44,7 +44,7 @@ function Footer(){
               <li><a className="instagram" href="https://www.instagram.com/rutgers_bits/" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a></li>
               <li><a className="youtube" href="https://www.youtube.com/channel/UCGF-IjyBcSRSzA-sgYhKOXg" target="_blank" rel="noreferrer"><i className="fa fa-youtube-play"></i></a></li>
               <li><a className="linkedin" href="https://www.linkedin.com/company/rutgers-bits/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin"></i></a></li>
-              <li><a className="discord" href="https://discord.gg/6vFqQ3TU" target="_blank" rel="noreferrer"><i className="fab fa-discord"></i></a></li>
+              <li><a className="discord" href="https://discord.gg/yyeF6SKU8D" target="_blank" rel="noreferrer"><i className="fab fa-discord"></i></a></li>
             </ul>
           </div>
         </div>
