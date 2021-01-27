@@ -37,7 +37,7 @@ function Events() {
                         alt={'Sports Analytics with Playstation Data Scientist: Payton Soicher'}
                         title={'Sports Analytics with Playstation Data Scientist: Payton Soicher'}
                         date={'08/21/20'}
-                        description={'Let\s talk sports analytics! Hear insight from Playstation data scientist Payton Soicher as he talks about his role at the company and his journey in becoming a data scientist.'}
+                        description={'Lets talk sports analytics! Hear insight from Playstation data scientist Payton Soicher as he talks about his role at the company and his journey in becoming a data scientist.'}
                         flip={false} />
 
                     <Event

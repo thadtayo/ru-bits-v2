@@ -1,4 +1,4 @@
-export default{
+const data = {
     'unnati': `Hello there! I’m a Junior majoring in Finance & Business Analytics. I love meeting new people and connecting through our unique stories! I’m passionate about technology/analytics and its impact on the world. I’m excited to work with a diverse group of students to expand the reach of BITS resources, knowledge, and opportunities to the Rutgers Community.`,
     'aishwarya': `My name is Aishwarya and I am a junior double majoring in BAIT and Finance and minoring in Economics. I am interested in understanding how technology impacts the financial markets and the economy. Outside of academics, my interests include painting and singing. I am excited for everything that BITS has planned for this year, including professional development sessions, technical workshops, and networking opportunities!`,
     'shaurya': `Hey everyone! My name is Shaurya Pathak and I'm pursuing a double major in Business Analytics and Information Technology and Finance. I am the Secretary for BITS @ Rutgers and my job is to facilitate meetings and events to make sure all topics are covered and any ideas for events that the bait community has are spoken out on. I find the world of data fascinating and am continuously trying to work on my data analysis skills. In my free time, I love binge watching Netflix shows, dancing, and playing volleyball!`,
@@ -42,3 +42,4 @@ export default{
     'michelle': ` Hi everyone! My name is Michelle Sy and I’m a freshman majoring in BAIT on the newsletter team for BITS where we provide relevant and interesting news to the community. I’m also involved in clubs like SEED, Creative X and the Rutgers Photography Club! I love listening to music, taking pictures and anything fashion-related. In my free time you’ll find me outside as much as I can, bullet journaling, and catching up on my endless movie list.`,
 
 }
+export default data;

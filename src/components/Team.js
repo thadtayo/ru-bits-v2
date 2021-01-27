@@ -19,7 +19,6 @@ import hemani from '../images/headshots/hemani.jpeg'
 import rashi from '../images/headshots/rashi.png';
 import jay from '../images/headshots/jay.png'
 import ameer from '../images/headshots/Ameer.JPG';
-import eric from '../images/headshots/eric.png';
 import nandita from '../images/headshots/nandita.png';
 import nanditaV from '../images/headshots/nanditaV.jpg';
 import navya from '../images/headshots/navya.png';

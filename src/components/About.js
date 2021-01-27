@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import insight from '../images/insight.svg'
 import exposure from '../images/exposure.svg'
 import development from '../images/development.svg'

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import flyer_1 from '../images/flyers/08_22_20_1.JPG'
 import flyer_2 from '../images/flyers/08_22_20_2.JPG'
