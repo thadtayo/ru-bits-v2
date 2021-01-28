@@ -9,7 +9,8 @@ function Learn() {
                     className="significant-link">bits.rutgers@gmail.com</a>!</p>
                 <p>To stay in the loop with upcoming BITS events and keep up with our future workshops, join our mailing list!</p>
                 <button type="button" className="btn btn-lg btn-danger mb-3"><a href="http://bit.ly/JOINBITS" target="_blank" rel="noreferrer">Join the community!</a></button>
-                <p> Don't forget to follow us on social media!</p>
+                <p> Don't forget to follow us on social media and join the official BITS GroupMe!</p>
+                <button type="button" className="btn btn-lg btn-info mb-3"><a href="https://groupme.com/join_group/61526104/E4NhsBCY" target="_blank" rel="noreferrer">Join the GroupMe!</a></button>
             </div>
         </div>
     )
