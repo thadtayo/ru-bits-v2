@@ -1,5 +1,6 @@
 {
   "name": "ru-bits-v2",
+  "homepage": "http://ru-bits.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
