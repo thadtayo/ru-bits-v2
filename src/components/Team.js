@@ -25,7 +25,7 @@ import navya from '../images/headshots/navya.png';
 import tulsi from '../images/headshots/tulsi.jpg'
 import adrienne from '../images/headshots/adrienne.jpg'
 import kennan from '../images/headshots/kennan.jpg'
-import eesha from '../images/headshots/eesha.jpeg'
+import eesha from '../images/headshots/eesha.JPG'
 import neha from '../images/headshots/neha.jpeg';
 import sukhbir from '../images/headshots/sukhbir2.png';
 import nimai from '../images/headshots/nimai.jpg';
@@ -163,7 +163,7 @@ function Team() {
 											<TeamModal
 												src={sneha}
 												alt={'Sneha Deb'}
-												blurb={data['neha']}
+												blurb={data['sneha']}
 											/>
 										</div>
 										<h5 className="font-weight-bold mt-4 mb-3">
