@@ -27,7 +27,7 @@ import adrienne from '../images/headshots/adrienne.jpg'
 import kennan from '../images/headshots/kennan.jpg'
 import eesha from '../images/headshots/eesha.jpeg'
 import neha from '../images/headshots/neha.jpeg';
-import sukhbir from '../images/headshots/sukhbir.png';
+import sukhbir from '../images/headshots/sukhbir2.png';
 import nimai from '../images/headshots/nimai.jpg';
 import eanne from '../images/headshots/eanne.jpeg';
 import raymond from '../images/headshots/raymond.jpeg';
