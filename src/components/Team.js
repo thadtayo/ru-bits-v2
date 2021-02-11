@@ -13,7 +13,7 @@ import sriven from '../images/headshots/sriven.png';
 import avig from '../images/headshots/Avig.jpg';
 import josh from '../images/headshots/josh.png';
 import thad from '../images/headshots/thad.png';
-import deep from '../images/headshots/deep.jpg'
+import deep from '../images/headshots/Deep.png'
 import meldon from '../images/headshots/meldon.png';
 import hemani from '../images/headshots/hemani.jpeg'
 import rashi from '../images/headshots/rashi.png';
@@ -27,7 +27,7 @@ import adrienne from '../images/headshots/adrienne.jpg'
 import kennan from '../images/headshots/kennan.jpg'
 import eesha from '../images/headshots/eesha.JPG'
 import neha from '../images/headshots/neha.jpeg';
-import sukhbir from '../images/headshots/sukhbir2.png';
+import sukhbir from '../images/headshots/sukhbir.png';
 import nimai from '../images/headshots/nimai.jpg';
 import eanne from '../images/headshots/eanne.jpeg';
 import raymond from '../images/headshots/raymond.jpeg';

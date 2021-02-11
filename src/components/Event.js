@@ -17,6 +17,9 @@ function Event(props) {
                         date={props.date}
                         description={props.description}
                         subdescription={props.subdescription}
+                        upcoming={props.upcoming}
+                        signup={props.signup}
+                        zoomlink={props.zoomlink}
                     />
 
                 </div>
@@ -34,6 +37,9 @@ function Event(props) {
                     date={props.date}
                     description={props.description}
                     subdescription={props.subdescription}
+                    upcoming={props.upcoming}
+                    signup={props.signup}
+                    zoomlink={props.zoomlink}
                 />
                 <EventFlyer
                     flyer={props.flyer}

@@ -8,18 +8,29 @@ import _08_05_20 from '../../images/flyers/08_05_20.JPG'
 import _08_19_20 from '../../images/flyers/08_19_20-08_20_20.JPG'
 import _08_21_20 from '../../images/flyers/08_21_20_2.JPG'
 import _08_22_20 from '../../images/flyers/08_22_20_1.JPG'
+import crowe from '../../images/flyers/Crowe LLP Info Session (p1).png'
 
 function Events() {
     const header = <h1 className='hero2-h1'>Events</h1>
     return (
         <>
             <Landing content={header} height={'40vh'} class={'landing2'} />
-            {/* <div className='container-fluid box-shadow text-center mb-5' id='upcoming'>
+            <div className='container-fluid box-shadow text-center mb-5' id='upcoming'>
                 <div className='container'>
                     <h2 className='section-header'>Upcoming Events</h2>
+                    <Event
+                        flyer={crowe}
+                        alt={'Crowe LLP Info Session'}
+                        title={'Rutgers BITS presents Crowe LLP!'}
+                        date={'02/23/2021'}
+                        description={'Crowe LLP, a public accounting, consulting, and technology firm with offices around the world, will join BITS for an information session on some of its most data analytics-driven consulting groups. The firm will focus the discussion on their Financial Crimes Analytics group.'}
+                        signup={'http://bit.ly/crowellp'}
+                        zoomlink={'https://rutgers.zoom.us/j/96408260974?pwd=RHVaOU9VYXRZSzZCYTk4TTlSMFZRQT09'}
+                        upcoming={true}
+                        flip={true} />
                 </div>
 
-            </div> */}
+            </div>
 
             <div className='container-fluid box-shadow text-center' id='past'>
                 <div className='container'>
